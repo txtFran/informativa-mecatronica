@@ -1,0 +1,7 @@
+{
+  "name": "informativa-mecatronica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
