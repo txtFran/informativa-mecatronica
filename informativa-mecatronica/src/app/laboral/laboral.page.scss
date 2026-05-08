@@ -1,16 +1,16 @@
 /* Paleta de colores */
-$primary-color: #1f2937;
-$secondary-color: #111828;
+$primary-color: #f4f7fc;
+$secondary-color: #68696b;
 $accent-color: #9ca4af;
-$button-color: #4c5563;
+$button-color: #fefefe;
 $background-color: #030616;
-$text-color: white;
+$text-color: black;
 
 /* Cosos generales */
 * {
     margin: 0;
     padding: 0;
-    color: $text-color;
+    color: black;
 }
 
 /* Texto */
@@ -18,47 +18,60 @@ h1 {
     font-size: 30px;
     margin: 10px;
 }
-
+h2 {
+    font-size: 24px;
+    margin: 10px;
+}
 p {
     font-size: 16px;
-    text-align: justify;
     margin: 10px;
 }
 
+/* Botones */
 ion-button {
-    --background: $button-color;
+    --background: #fefefe;
 }
 
-/* Header */
+/* Header y Footer */
 ion-header, ion-footer {
-    --background: $secondary-color;
-}
-ion-toolbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    --background: #68696b;
+    text-align: center;
+    padding: 10px;
 }
 ion-title {
-    display: flex;
-    font-size: 18px;
-    margin: 10px;
+    font-size: 20px;
+    color: white;
 }
+
+/* Menu de navegación */
 .navegación {
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
     gap: 10px;
 }
 
 /* Cuerpo */
 ion-content {
-    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
     padding: 15px;
-    text-align: center;
-    --background: $primary-color;
+    gap: 15px;
+    --background: #f4f7fc;
 }
-
-/* Footer */
-ion-footer {
-    text-align: center;
+ion-card {
+    width: 100%;
+    max-width: 600px;
+    --background: #fefefe;
+    margin-block: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-radius: 5px;
+    --border-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
