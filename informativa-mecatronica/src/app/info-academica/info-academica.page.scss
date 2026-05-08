@@ -1,0 +1,71 @@
+ion-content {
+  --background: #eef3fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+ion-toolbar {
+  --background: #0b1f4d;
+  --color: white;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  background: linear-gradient(135deg, #0b1f4d, #1f4fa3);
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+
+.container {
+  padding: 1.5rem;
+}
+
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h2 {
+  color: #0b1f4d;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.card p {
+  color: #444;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+
+.footer {
+  --background: #0b1f4d;
+  --color: white;
+  text-align: center;
+}
