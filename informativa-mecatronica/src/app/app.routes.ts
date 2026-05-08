@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+
 export const routes: Routes = [
   {
     path: 'home',
@@ -10,8 +11,10 @@ export const routes: Routes = [
     loadComponent: () => import('./laboral/laboral.page').then( m => m.LaboralPage)
   },
   {
-    path: 'info-academica',
-    loadComponent: () => import('./info-academica/info-academica.page').then( m => m.InfoAcademicaPage)
+    path: 'academica',
+    loadComponent: () => import('./academica/academica.page').then(
+      (m) => m.AcademicaPage,
+    ),
   },
   {
     path: '',

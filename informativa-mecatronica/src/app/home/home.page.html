@@ -1,18 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Página Principal - Carreras Tecnológicas
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+  <ion-title>Ingeniería Mecatrónica</ion-title>
+  <div class="navegación">
+    <ion-button size="small" routerLink="/home">
+      Home
+    </ion-button>
+    <ion-button size="small" routerLink="/academica">
+      Academica
+    </ion-button>
+    <ion-button size="small" routerLink="/laboral">
+      Laboral
+    </ion-button>
+  </div>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Página Principal - Carreras Tecnológicas</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-content>
   <!-- Portada -->
   <div class="portada">
     <img src="assets/images/portada.png" alt="Portada" />
@@ -76,3 +77,9 @@
     </video>
   </div>
 </ion-content>
+
+<ion-footer>
+  <ion-title>
+    © 2026 Carrera Mecatronica - Todos los derechos reservados
+  </ion-title>
+</ion-footer>
