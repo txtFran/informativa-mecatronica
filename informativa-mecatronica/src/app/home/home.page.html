@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Página Principal - Carreras Tecnológicas
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,70 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Página Principal - Carreras Tecnológicas</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <!-- Portada -->
+  <div class="portada">
+    <img src="assets/images/portada.png" alt="Portada" />
+
+    <div class="portada-text">
+      <h1>Mecatrónica</h1>
+      <h2>Ingeniería que combina mecánica, electrónica y programación para crear soluciones inteligentes</h2>
+      <p>Descubre cómo la mecatrónica está transformando el mundo a través de la innovación tecnológica, lo que contribuye al avance científico y tecnológico en diversos sectores industriales.</p>
+    </div>
+  </div>
+
+  <!-- Información -->
+  <div class="section">
+      <h2>¿Qué es la Mecatrónica?</h2>
+    <p>La mecatrónica es una disciplina que integra conocimientos de ingeniería mecánica, electrónica, informática y control para diseñar y desarrollar sistemas automatizados. Esta carrera forma profesionales capaces de resolver problemas complejos en el ámbito de la automatización y el control de procesos.</p>
+  </div>
+
+  <!-- Cards -->
+  <div class="cards-container">
+
+    <ion-card>
+      <ion-card-content>
+       <img src="assets/images/integra.jpg" alt="Integra" />
+       <h3>Integra</h3>
+       <p>Combina conocimientos de diferentes áreas para resolver problemas complejos.</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content>
+       <img src="assets/images/automatiza.jpeg" alt="Automatiza" />
+       <h3>Automatiza</h3>
+       <p>Diseña y desarrolla sistemas automatizados para mejorar procesos.</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content>
+       <img src="assets/images/disena.jpg" alt="Diseña" />
+       <h3>Diseña</h3>
+       <p>Desarrolla productos y sistemas innovadores y eficientes.</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content>
+       <img src="assets/images/impacta.webp" alt="Impacta" />
+       <h3>Impacta</h3>
+       <p>Contribuye al avance tecnológico y a la mejora de la calidad de vida.</p>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+  <!-- Video-->
+  <div class="section">
+    <h2>Video de Introducción a la Mecatrónica</h2>
+    <video controls width="100%">
+      <source src="assets/images/mecatronica.mp4" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
   </div>
 </ion-content>
