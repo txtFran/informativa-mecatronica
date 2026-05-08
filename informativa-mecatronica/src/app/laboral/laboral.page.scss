@@ -1,0 +1,77 @@
+/* Paleta de colores */
+$primary-color: #f4f7fc;
+$secondary-color: #68696b;
+$accent-color: #9ca4af;
+$button-color: #fefefe;
+$background-color: #030616;
+$text-color: black;
+
+/* Cosos generales */
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* Texto */
+h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+h2 {
+    font-size: 24px;
+    margin: 10px;
+}
+p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Botones */
+ion-button {
+    --background: #fefefe;
+}
+
+/* Header y Footer */
+ion-header, ion-footer {
+    --background: #68696b;
+    text-align: center;
+    padding: 10px;
+}
+ion-title {
+    font-size: 20px;
+    color: white;
+}
+
+/* Menu de navegación */
+.navegación {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+/* Cuerpo */
+ion-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 15px;
+    gap: 15px;
+    --background: #f4f7fc;
+}
+ion-card {
+    width: 100%;
+    max-width: 600px;
+    --background: #fefefe;
+    margin-block: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-radius: 5px;
+    --border-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
